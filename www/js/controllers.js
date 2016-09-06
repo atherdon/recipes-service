@@ -5,7 +5,7 @@ angular.module('app.controllers', ['app.services'])
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
-    console.log('123');
+//    console.log('123');
 
 }])
          
@@ -123,22 +123,22 @@ function ($scope, $stateParams) {
 function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
 
 
-    $http.get('/js/weekly.json')
-       .then(function(res){
+    $http.get('/js/api/weekly.json')
+       .then(function(response){
            
-           console.log( res );
+           console.log( response.data );
            
-//          $scope.todos = res.data;                
+          $scope.weekly = response.data;                
         });
-
-//        console.log( $scope );
-
-//    console.log( weeklyMenuAlterFactory )
+        
+        
 
 
+
+    //good but not working well option right now
 //    weeklyMenuAlterFactory.get().then(function(response){
 //
-//            // console.log( response );
+//             console.log( response );
 //
 //            // $scope.response = response;
 //            // or

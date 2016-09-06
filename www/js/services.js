@@ -31,8 +31,8 @@ angular.module('app.services', [])
     return {
             get: function () {
                 console.log('inside function');
-
-                return $http.get('weekly.json');
+                return false;
+//                return $http.get('/js/api/weekly.json');
             }
     }
 
