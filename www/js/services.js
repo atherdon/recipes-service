@@ -32,7 +32,7 @@ angular.module('app.services', [])
             get: function () {
                 console.log('inside function');
 
-                return $http.get('/api/weekly.json');
+                return $http.get('weekly.json');
             }
     }
 

@@ -5,6 +5,7 @@ angular.module('app.controllers', ['app.services'])
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
+    console.log('123');
 
 }])
          
@@ -116,20 +117,35 @@ function ($scope, $stateParams) {
 /*Added by Arthur*/
 
 /* Populate weekly menu page list with recipes data from json */
-.controller('weeklyMenuListCtrl', ['$scope', '$stateParams', 'weeklyMenuAlterFactory', 
+.controller('weeklyMenuListCtrl', ['$scope', '$stateParams', '$http', 
+//'weeklyMenuAlterFactory', 
 
-function ($scope, $stateParams, weeklyMenuAlterFactory) {
+function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
 
-    weeklyMenuAlterFactory.get().then(function(response){
 
-            // console.log( response );
+    $http.get('/js/weekly.json')
+       .then(function(res){
+           
+           console.log( res );
+           
+//          $scope.todos = res.data;                
+        });
 
-            // $scope.response = response;
-            // or
-            // $scope.response = response.data;
-            // $scope.response = response.data.contentItem; - if array
-            
-    })
+//        console.log( $scope );
+
+//    console.log( weeklyMenuAlterFactory )
+
+
+//    weeklyMenuAlterFactory.get().then(function(response){
+//
+//            // console.log( response );
+//
+//            // $scope.response = response;
+//            // or
+//            // $scope.response = response.data;
+//            // $scope.response = response.data.contentItem; - if array
+//            
+//    })
 
 
 }])

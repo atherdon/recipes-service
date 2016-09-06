@@ -10,21 +10,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     
   
 
-      .state('tabsController.weeklyMenu', {
-    url: '/page2',
-    views: {
-      'tab1': {
-        templateUrl: 'templates/weeklyMenu.html',
-        controller: 'weeklyMenuCtrl'
+    .state('tabsController.weeklyMenu', {
+      url: '/page2',
+      views: {
+        'tab1': {
+          templateUrl: 'templates/weeklyMenu.html',
+//          controller: 'weeklyMenuCtrl'
+          controller: 'weeklyMenuListCtrl'
+          
+        }
       }
-    }
-  })
+    })
+
 
   .state('tabsController', {
     url: '/page1',
     templateUrl: 'templates/tabsController.html',
     abstract:true
   })
+
 
   .state('tabsController.singleRecipe', {
     url: '/page5',
@@ -36,11 +40,13 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+
   .state('login', {
     url: '/page6',
     templateUrl: 'templates/login.html',
     controller: 'loginCtrl'
   })
+
 
   .state('signup', {
     url: '/page7',
@@ -48,11 +54,13 @@ angular.module('app.routes', ['ionicUIRouter'])
     controller: 'signupCtrl'
   })
 
+
   .state('freeRecipes', {
     url: '/page8',
     templateUrl: 'templates/freeRecipes.html',
     controller: 'freeRecipesCtrl'
   })
+
 
   .state('styledSingleRecipe', {
     url: '/page9',
@@ -60,11 +68,13 @@ angular.module('app.routes', ['ionicUIRouter'])
     controller: 'styledSingleRecipeCtrl'
   })
 
+
   .state('ingredients', {
     url: '/page10',
     templateUrl: 'templates/ingredients.html',
     controller: 'ingredientsCtrl'
   })
+
 
   .state('uXSingleRecipe', {
     url: '/page11',
@@ -72,17 +82,20 @@ angular.module('app.routes', ['ionicUIRouter'])
     controller: 'uXSingleRecipeCtrl'
   })
 
+
   .state('uXSingleRecipe2', {
     url: '/page18',
     templateUrl: 'templates/uXSingleRecipe2.html',
     controller: 'uXSingleRecipe2Ctrl'
   })
 
+
   .state('directions', {
     url: '/page12',
     templateUrl: 'templates/directions.html',
     controller: 'directionsCtrl'
   })
+
 
   .state('tabsController.groceryListSettings', {
     url: '/page13',
@@ -93,6 +106,7 @@ angular.module('app.routes', ['ionicUIRouter'])
       }
     }
   })
+
 
   /* 
     The IonicUIRouter.js UI-Router Modification is being used for this route.
