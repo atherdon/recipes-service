@@ -6,23 +6,23 @@
     "ingredients": [
         {
             "quantity": "1",
-            "name": " beef roast",
+            "name": " beef roast"
         },
         {
             "quantity": "1 package",
-            "name": "brown gravy mix",
+            "name": "brown gravy mix"
         },
         {
             "quantity": "1 package",
-            "name": "dried Italian salad dressing mix",
+            "name": "dried Italian salad dressing mix"
         },
         {
             "quantity": "1 package",
-            "name": "dry ranch dressing mix",
+            "name": "dry ranch dressing mix"
         },
         {
             "quantity": "1/2 cup",
-            "name": "water",
+            "name": "water"
         }
     ],
     "steps": [
@@ -34,6 +34,6 @@
 
     "prepTime"    :"PT30M",
     "totalTime"   :"PT3H",
-    "recipeYield" :"8", 
+    "recipeYield" :"8"
    
 }

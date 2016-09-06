@@ -41,10 +41,20 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('styledSingleRecipeCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('styledSingleRecipeCtrl', ['$scope', '$stateParams', '$http', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
+function ($scope, $stateParams, $http) {
+
+  $http.get('/js/api/recipe-simple.json')
+       .then(function(response){
+           
+           console.log( response.data );
+           
+          $scope.recipe = response.data;                
+        });
+        
+        
 
 
 }])
@@ -126,7 +136,7 @@ function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
     $http.get('/js/api/weekly.json')
        .then(function(response){
            
-           console.log( response.data );
+//           console.log( response.data );
            
           $scope.weekly = response.data;                
         });
