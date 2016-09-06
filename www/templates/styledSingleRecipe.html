@@ -14,6 +14,7 @@
                     <span class="input-label">
                         Servings
                     </span>
+                    <!--{{ recipe.recipeYield }}-->
                     <select>
                         <option>
                             1
@@ -30,26 +31,39 @@
                         <option>
                             5
                         </option>
+                        <option>
+                            5
+                        </option>
+                        <option>
+                            5
+                        </option>
+                        <option selected>
+                            8
+                        </option>
                     </select>
                 </label>
             </form>
-            <div class="item item-body" id="styledSingleRecipe-list-item-container2">
+            
+<!--            <div class="item item-body" id="styledSingleRecipe-list-item-container2">
                 <div id="styledSingleRecipe-markdown10" style="margin-top:0px;color:#000000;">
                     <p>
                         Some friendly
                         <strong>markdown</strong>
                     </p>
                 </div>
-            </div>
+            </div>-->
+            
             <ion-item class="item-icon-left assertive" id="styledSingleRecipe-list-item20">
                 <i class="icon ion-android-time"></i>
                 Timing
             </ion-item>
             <ion-item id="styledSingleRecipe-list-item30">
-                Preparation Time 15m
+                Preparation Time 
+                {{ recipe.prepTime }}
             </ion-item>
             <ion-item id="styledSingleRecipe-list-item31">
-                Cook Time 35m
+                Cook Time 
+                {{ recipe.totalTime }}
             </ion-item>
             <ion-item class="item-divider" id="styledSingleRecipe-list-item-divider1"></ion-item>
             
@@ -58,25 +72,42 @@
                 Ingredients
             </ion-item>
             <ion-list id="styledSingleRecipe-list7">
-                <ion-item id="styledSingleRecipe-list-item24">
+                
+<!--                <ion-item id="styledSingleRecipe-list-item24">
                     2 tablespoons olive oil divided
+                </ion-item>-->
+                
+                <!--{{ recipe.ingredients[0] }}-->
+                <ion-item id="styledSingleRecipe-list-item24">
+                    {{ recipe.ingredients[0].quantity }}
+                    {{ recipe.ingredients[0].name }}
+                     - {{ recipe.ingredients[0].type }}
                 </ion-item>
                 <ion-item id="styledSingleRecipe-list-item25">
-                    1.5 teaspoons kosher salt divided
+                    {{ recipe.ingredients[1].quantity }}
+                    {{ recipe.ingredients[1].name }}
+                    - {{ recipe.ingredients[1].type }}
                 </ion-item>
                 <ion-item id="styledSingleRecipe-list-item26">
-                    0.25 teaspoon freshly ground black pepper
+                    {{ recipe.ingredients[2].quantity }}
+                    {{ recipe.ingredients[2].name }}
+                    - {{ recipe.ingredients[2].type }}
                 </ion-item>
             </ion-list>
             <ion-item id="styledSingleRecipe-list-item27">
-                1 teaspoon ground cumin
+                {{ recipe.ingredients[3].quantity }}
+                {{ recipe.ingredients[3].name }}
+                - {{ recipe.ingredients[3].type }}
             </ion-item>
             <ion-item id="styledSingleRecipe-list-item28">
-                0.25 teaspoon ground cinnamon
+                
+                {{ recipe.ingredients[4].quantity }}
+                {{ recipe.ingredients[4].name }}
+                - {{ recipe.ingredients[4].type }}
             </ion-item>
-            <ion-item id="styledSingleRecipe-list-item29">
+<!--            <ion-item id="styledSingleRecipe-list-item29">
                 1.25 pounds pork tenderloin excess fat and silver skin removed
-            </ion-item>
+            </ion-item>-->
             <ion-item class="item-divider" id="styledSingleRecipe-list-item-divider2"></ion-item>
             
             <ion-item class="item-icon-left" id="styledSingleRecipe-list-item32" ui-sref="directions">
@@ -85,26 +116,30 @@
             </ion-item>
             <ion-list id="styledSingleRecipe-list8">
                 <ion-item id="styledSingleRecipe-list-item33">
-                    1 Preheat oven to 425 degrees.
+                    1 {{ recipe.steps[0] }}
+                    <!--1 Preheat oven to 425 degrees.-->
                 </ion-item>
                 <ion-item id="styledSingleRecipe-list-item34">
-                    2 Heat a large ovenproof nonstick skillet over medium-high heat. Add 1 tablespoon oil; swirl to coat.
+                    2 {{ recipe.steps[1] }}
+                    <!--2 Heat a large ovenproof nonstick skillet over medium-high heat. Add 1 tablespoon oil; swirl to coat.-->
                 </ion-item>
                 <ion-item id="styledSingleRecipe-list-item35">
-                    3 Combine 1 teaspoon salt, pepper, cumin, cinnamon and ginger. Rub pork evenly with this spice mixture.
+                    3 {{ recipe.steps[2] }}
+                    <!--3 Combine 1 teaspoon salt, pepper, cumin, cinnamon and ginger. Rub pork evenly with this spice mixture.-->
                 </ion-item>
                 <ion-item id="styledSingleRecipe-list-item40">
-                    4 Add pork to now-hot skillet; saute 4 minutes.
+                    4 {{ recipe.steps[3] }}
+                    <!--4 Add pork to now-hot skillet; saute 4 minutes.-->
                 </ion-item>
-                <ion-item id="styledSingleRecipe-list-item39">
+<!--                <ion-item id="styledSingleRecipe-list-item39">
                     5 Turn pork over; place pan in oven and roast for 15 minutes, or until an instant-read thermometer registers 140 degrees.
-                </ion-item>
-                <ion-item id="styledSingleRecipe-list-item38">
+                </ion-item>-->
+<!--                <ion-item id="styledSingleRecipe-list-item38">
                     6 Remove pork from pan; place on a cutting board or plate and tent loosely with foil. Do not wipe out pan.
-                </ion-item>
-                <ion-item id="styledSingleRecipe-list-item37">
+                </ion-item>-->
+<!--                <ion-item id="styledSingleRecipe-list-item37">
                     7 While pork is resting, add remaining 1 tablespoon oil to pan; swirl to coat.
-                </ion-item>
+                </ion-item>-->
             </ion-list>
         </div>
     </ion-content>

@@ -35,8 +35,8 @@
         "Cook on low for 7-9 hours."
     ],
     
-    "prepTime"    :"PT30M",
-    "totalTime"   :"PT3H",
+    "prepTime"    :"30min",
+    "totalTime"   :"3h",
     "recipeYield" :"8", 
 
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
