@@ -1,13 +1,32 @@
 <ion-view title="DRY GOODS" id="page16">
     <ion-content padding="true" class="has-header">
         <div class="item item-body" id="dRYGOODS-list-item-container35">
-            <form id="dRYGOODS-form8" class="list">
-                <ion-checkbox>Ketchup 0.2 cup</ion-checkbox>
-                <ion-checkbox>Kosher salt and freshly good paper</ion-checkbox>
-                <ion-checkbox>Olive Oil</ion-checkbox>
-                <ion-checkbox>Mascarpone</ion-checkbox>
-                <ion-checkbox>Lemon</ion-checkbox>
-                <ion-checkbox>Raspberries</ion-checkbox>
+            <form id="dRYGOODS-form8" class="list" ng-repeat="ing in ingredients">
+                
+                
+                <ion-checkbox ng-change="save(ing.id)" ng-model="objc[ing.id]">
+                    {{ ing.id }} - {{ ing.name }} 
+                </ion-checkbox>
+                
+<!--                <ion-checkbox ng-change="save(0)" ng-model="objc[0]">
+                    Ketchup 0.2 cup
+                </ion-checkbox>
+                <ion-checkbox ng-change="save(1)" ng-model="objc[1]">
+                    Kosher salt and freshly good paper
+                </ion-checkbox>
+                <ion-checkbox ng-change="save(2)" ng-model="objc[2]">
+                    Olive Oil
+                </ion-checkbox>
+                <ion-checkbox>
+                    Mascarpone
+                </ion-checkbox>
+                <ion-checkbox>
+                    Lemon
+                </ion-checkbox>
+                <ion-checkbox>
+                    Raspberries
+                </ion-checkbox>-->
+                
             </form>
         </div>
     </ion-content>

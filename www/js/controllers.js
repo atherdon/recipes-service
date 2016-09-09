@@ -115,11 +115,48 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('dRYGOODSCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('dRYGOODSCtrl', ['$scope', '$stateParams', 'localStorageService', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
+function ($scope, $stateParams, localStorageService) {
 
+    var data = [
+        {
+            "id"   : "19989",
+            "name" : "Name1"
+        },
+        {
+            "id"   : "1989",
+            "name" : "Name2"
+        },
+        {
+            "id"   : "1999",
+            "name" : "Name3"
+        }
+    ];
+    
+    $scope.ingredients = data;
+    
+    
+    var defaultValJs = [ false, false, false ];
+    
+    var EngObj   = localStorageService.get("StoredCheck");
+    if( !EngObj ) {
+        
+        $scope.objc = defaultValJs;
+    }
+    else {
+        
+        $scope.objc = EngObj;
+    }
+
+    $scope.save = function( val ) {
+
+        $scope.objc[val] = $scope.objc[val];
+//        $scope.objc[val]=$scope.objc[val];
+        
+        localStorageService.set( "StoredCheck", $scope.objc );
+    }
 
 }])
 
