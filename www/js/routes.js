@@ -189,7 +189,6 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-//$urlRouterProvider.otherwise('/page1/page16')
 $urlRouterProvider.otherwise('/page1/page2')
 
   

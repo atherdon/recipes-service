@@ -29,11 +29,11 @@ angular.module('app.services', [])
 
 
     return {
-            get: function () {
-                console.log('inside function');
-                return false;
-//                return $http.get('/js/api/weekly.json');
+            get: function(){
+
+                return $http.get('/js/api/weekly.json');
             }
+            
     }
 
 }])
@@ -49,4 +49,34 @@ angular.module('app.services', [])
    
 })
 
-;
+
+.service('groceryCategory', ['$http', function( $http ){
+
+    return {
+            get: function() {
+                
+                return $http.get('/js/api/grocery.json');
+            },
+            getCategory: function(callback, de) {
+                
+                $http.get('/js/api/grocery.json').then(function(response) {
+                    
+                    angular.forEach( response.data, function(value, key){
+
+                        if( value.category_id == "3" ){
+
+                            callback(value);
+                            
+                        }
+
+                    });
+                    
+
+                });
+                
+
+            }
+
+    }
+
+}]);

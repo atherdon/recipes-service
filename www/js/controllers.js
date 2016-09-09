@@ -119,59 +119,27 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('dRYGOODSCtrl', ['$scope', '$stateParams', '$http', 'localStorageService', 'pageTitle',
+.controller('dRYGOODSCtrl', ['$scope', '$stateParams',  'localStorageService', 'groceryCategory',
 // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams, $http, localStorageService, pageTitle) {
+function ($scope, $stateParams, localStorageService, groceryCategory) {
 
 //    @TODO create a service method for getting only values(array) for only one category.
 //    get needed category id from service method with passing category id from view
 // remove pages like grocery food categories and create a groceryCategoryList with passing data to it
 
+// @TODO add page for flushing checkboxes
 
-    $http.get('/js/api/grocery.json')
-       .then(function(response){
-                    
-          angular.forEach( response.data, function(value, key){
-                        
-            if( value.category_id == "3" ){
+   groceryCategory.getCategory( function(data){
+       
+        $scope.ingredients = data.items;
 
-                $scope.data = value; 
-            }
-               
-           
-         });
-         $scope.header = 'Doinis';
-
-          
-        });
-//         console.log( pageTitle.title() );
-//        pageTitle.setTitle('Doinis');
-//        console.log( pageTitle.title() );
-        
-//        pageTitle.setTitle('Doinis');
-        
-
-    var data = [
-        {
-            "id"   : "19989",
-            "name" : "Name1"
-        },
-        {
-            "id"   : "1989",
-            "name" : "Name2"
-        },
-        {
-            "id"   : "1999",
-            "name" : "Name3"
-        }
-    ];
+    });
+//   console.log(groceryCategory.zaz);
     
-    $scope.ingredients = data;
-    
-    
-    var defaultValJs = [ false, false, false ];
+    var defaultValJs = Array.apply(null, Array( 30 )).map(function () {});;
+
     
     var EngObj   = localStorageService.get("StoredCheck");
     if( !EngObj ) {
@@ -182,7 +150,12 @@ function ($scope, $stateParams, $http, localStorageService, pageTitle) {
         
         $scope.objc = EngObj;
     }
-
+    
+    if( false ){ // count more than 100
+        localStorageService.clearAll();
+    }
+    
+    
     $scope.save = function( val ) {
 
         $scope.objc[val] = $scope.objc[val];      
