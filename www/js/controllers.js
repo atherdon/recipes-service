@@ -119,34 +119,39 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('dRYGOODSCtrl', ['$scope', '$stateParams', '$http', 'localStorageService', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('dRYGOODSCtrl', ['$scope', '$stateParams', '$http', 'localStorageService', 'pageTitle',
+// The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams, $http, localStorageService) {
+function ($scope, $stateParams, $http, localStorageService, pageTitle) {
 
 //    @TODO create a service method for getting only values(array) for only one category.
+//    get needed category id from service method with passing category id from view
+// remove pages like grocery food categories and create a groceryCategoryList with passing data to it
+
 
     $http.get('/js/api/grocery.json')
        .then(function(response){
-           
-           console.log( response.data );
+                    
+          angular.forEach( response.data, function(value, key){
+                        
+            if( value.category_id == "3" ){
 
-           
-          $scope.data = response.data; 
-          
-          
-          
-        });
-        
-        angular.forEach($scope.data, function(value, key){
-            
-            console.log( value );
-//            if(value.Password == "thomasTheKing")
-//               console.log("username is thomas");
+                $scope.data = value; 
+            }
+               
            
          });
-    
+         $scope.header = 'Doinis';
 
+          
+        });
+//         console.log( pageTitle.title() );
+//        pageTitle.setTitle('Doinis');
+//        console.log( pageTitle.title() );
+        
+//        pageTitle.setTitle('Doinis');
+        
 
     var data = [
         {

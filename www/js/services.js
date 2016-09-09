@@ -38,4 +38,15 @@ angular.module('app.services', [])
 
 }])
 
+
+.factory('pageTitle', function() {
+    
+   var title = 'default';
+   return {
+     title: function() { return title; },
+     setTitle: function(newTitle) { title = newTitle }
+   };
+   
+})
+
 ;
