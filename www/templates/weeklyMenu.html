@@ -2,82 +2,84 @@
     <ion-content padding="true" class="has-header">
         <h2 id="weeklyMenu-heading1" style="color:#000000;text-align:center;">
             <!--July 18-24-->
-            {{ weekly.title }}
+            {{ data.title }}
         </h2>
         <div id="weeklyMenu-markdown1" style="color:#000000;text-align:center;">
             <p>
-                 {{ weekly.description }}
+                 {{ data.description }}
             </p>
         </div>
         <ion-list id="weeklyMenu-list2">
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.singleRecipe">
                 <!-- {{ weekly.items[0].id }} -->
-                <img src="{{ weekly.items[0].img }}">
+                <img src="{{ data.items[0].img }}">
                 <h2 style="white-space:normal;">
-                      {{ weekly.items[0].title }}
+                      {{ data.items[0].title }}
                       
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[0].weekDay }}                     
+                    {{ data.items[0].weekDay }}                     
                 </p>
                 <h5 style="white-space:normal;">
-                    {{ weekly.items[0].recipeDescription }}                     
+                    {{ data.items[0].recipeDescription }}                     
                 </h5>
                 
             </ion-item>
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item5" ui-sref="tabsController.singleRecipe">
                 <!-- {{ weekly.items[1].id }} -->
-                <img src="{{ weekly.items[1].img }}">
+                <img src="{{ data.items[1].img }}">
                 <h2 style="white-space:normal;">
-                    {{ weekly.items[1].weekDay }}
+                    {{ data.items[1].weekDay }}
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[1].title }}
+                    {{ data.items[1].title }}
                 </p>
             </ion-item>
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item6" ui-sref="tabsController.singleRecipe">
                 <!-- {{ weekly.items[2].id }} -->
-                <img src="{{ weekly.items[2].img }}">
+                <img src="{{ data.items[2].img }}">
                 <h2 style="white-space:normal;">
-                     {{ weekly.items[2].weekDay }}
+                     {{ data.items[2].weekDay }}
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[2].title }}
+                    {{ data.items[2].title }}
                 </p>
             </ion-item>
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item7">
                 <!-- {{ weekly.items[3].id }} -->
-                <img src="{{ weekly.items[3].img }}">
+                <img src="{{ data.items[3].img }}">
                 <h2 style="white-space:normal;">
-                     {{ weekly.items[3].weekDay }}
+                     {{ data.items[3].weekDay }}
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[3].title }}
+                    {{ data.items[3].title }}
                 </p>
             </ion-item>
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item8">
                 <!-- {{ weekly.items[4].id }} -->
-                <img src="{{ weekly.items[4].img }}">
+                <img src="{{ data.items[4].img }}">
                 <h2 style="white-space:normal;">
-                     {{ weekly.items[4].weekDay }}
+                     {{ data.items[4].weekDay }}
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[4].title }}
+                    {{ data.items[4].title }}
                 </p>
             </ion-item>
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item90">
                 <!-- {{ weekly.items[5].id }} -->
-                <img src="{{ weekly.items[5].img }}">
+                <img src="{{ data.items[5].img }}">
                 <h2 style="white-space:normal;">
-                     {{ weekly.items[5].weekDay }}
+                     {{ data.items[5].weekDay }}
                 </h2>
                 <p style="white-space:normal;">
-                    {{ weekly.items[5].title }}
+                    {{ data.items[5].title }}
                 </p>
             </ion-item>
         </ion-list>
+        
         <button id="weeklyMenu-button1" class="button button-positive  button-block">
             Previous week
         </button>
+        
     </ion-content>
 </ion-view>

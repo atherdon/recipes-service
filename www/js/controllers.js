@@ -104,6 +104,10 @@ function ($scope, $stateParams) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
+//@TODO remove getting info and move it to services.
+//Looks awful right now. Also remove not necessary variables from constructor and method
+    
+
 
 }])
    
@@ -115,10 +119,34 @@ function ($scope, $stateParams) {
 
 }])
    
-.controller('dRYGOODSCtrl', ['$scope', '$stateParams', 'localStorageService', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('dRYGOODSCtrl', ['$scope', '$stateParams', '$http', 'localStorageService', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams, localStorageService) {
+function ($scope, $stateParams, $http, localStorageService) {
+
+//    @TODO create a service method for getting only values(array) for only one category.
+
+    $http.get('/js/api/grocery.json')
+       .then(function(response){
+           
+           console.log( response.data );
+
+           
+          $scope.data = response.data; 
+          
+          
+          
+        });
+        
+        angular.forEach($scope.data, function(value, key){
+            
+            console.log( value );
+//            if(value.Password == "thomasTheKing")
+//               console.log("username is thomas");
+           
+         });
+    
+
 
     var data = [
         {
@@ -152,9 +180,7 @@ function ($scope, $stateParams, localStorageService) {
 
     $scope.save = function( val ) {
 
-        $scope.objc[val] = $scope.objc[val];
-//        $scope.objc[val]=$scope.objc[val];
-        
+        $scope.objc[val] = $scope.objc[val];      
         localStorageService.set( "StoredCheck", $scope.objc );
     }
 
@@ -175,7 +201,7 @@ function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
            
 //           console.log( response.data );
            
-          $scope.weekly = response.data;                
+          $scope.data = response.data;                
         });
         
         
