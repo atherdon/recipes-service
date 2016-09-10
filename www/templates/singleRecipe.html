@@ -1,12 +1,13 @@
 <ion-view title="Single Recipe" id="page5">
     <ion-content padding="true" class="has-header">
         <div>
-            <img src="img/gYHPhcY7TvqHuy8b2Tv1_dsc_0978.display.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="{{ recipe.imageURL }}" width="100%" height="auto" 
+                 style="display: block; margin-left: auto; margin-right: auto;">
         </div>
         
         <h3 id="singleRecipe-heading2" style="color:#000000;">
 
-            Pork Tenderloin with Roasted Cherries
+             {{ recipe.name }}
         </h3>
         
         <div id="singleRecipe-markdown2" style="color:#000000;">
@@ -16,28 +17,75 @@
         </div>
         <hr />
         
+
+        
+        <ion-item class="item-icon-left assertive" id="styledSingleRecipe-list-item20">
+                <i class="icon ion-android-time"></i>
+                Timing
+        </ion-item>
+        
+        <ion-item id="styledSingleRecipe-list-item30">
+            Preparation Time 
+            {{ recipe.prepTime }}
+        </ion-item>
+        
+        <ion-item id="styledSingleRecipe-list-item31">
+            Cook Time 
+            {{ recipe.totalTime }}
+        </ion-item>
+        <ion-item class="item-divider" id="styledSingleRecipe-list-item-divider1"></ion-item>
+        
+        <ion-item class="item-icon-left assertive" id="styledSingleRecipe-list-item20">
+            <i class="icon ion-android-time"></i>
+                Timing
+        </ion-item>
+        
+        <ion-item id="styledSingleRecipe-list-item30">
+            Preparation Time  {{ recipe.prepTime }}
+            
+            Cook Time         {{ recipe.totalTime }}
+            
+        </ion-item>
+        
+        <ion-item class="item-divider" id="styledSingleRecipe-list-item-divider1"></ion-item>
+        
+        
+        <br />
+        
         <h4 id="singleRecipe-heading3" style="color:#000000;">
             Ingredients
         </h4>
         <div id="singleRecipe-markdown4" style="color:#000000;">
             
-            <ul>
-                <li>2 tablespoons olive oil divided</li>
-                <li>1.5 teaspoons kosher salt divided</li>
-                <li>0.25 teaspoon freshly ground black pepper</li>
-                <li>1 teaspoon ground cumin</li>
-                <li>0.25 teaspoon ground cinnamon</li>
-                <li>0.25 teaspoon ground ginger</li>
-                <li>1.25 pounds pork tenderloin excess fat and silver skin removed</li>
-                <li>0.5 small red onion cut into long slivers</li>
-                <li>8 ounces fresh cherries pitted and halved</li>
-                <li>0.5 cup low-sodium chicken broth</li>
-                <li>0.25 cup balsamic vinegar</li>
-                <li>1 teaspoon brown sugar</li>
-                <li>1 tablespoon unsalted butter</li>
-                <li>0.5 cup crumbled blue cheese</li>
+            <ul ng-repeat="ing in ingredients">
+                
+                <li>                    
+                    {{ ingredient.qty }}
+                    {{ ingredient.name }} - 
+                    {{ ingredient.type }}
+                </li>
+                
+
             </ul>
             
+
         </div>
+        
+        <div id="directions">
+             <h4 id="singleRecipe-heading3" style="color:#000000;">
+                Directions
+            </h4>
+            
+            <ul ng-repeat="direction in directions">
+                
+                <li>
+                    {{ direction }}                    
+                </li>
+
+            </ul>
+
+        </div>
+        
+        
     </ion-content>
-</ion-view>
+</ion-view>            
