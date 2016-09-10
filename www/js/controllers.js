@@ -44,20 +44,20 @@ function ($scope, $stateParams) {
 
 
     // Called to navigate to the main app
-      $scope.startApp = function() {
-        $state.go('login');
-      };
-      $scope.next = function() {
-        $ionicSlideBoxDelegate.next();
-      };
-      $scope.previous = function() {
-        $ionicSlideBoxDelegate.previous();
-      };
-
-      // Called each time the slide changes
-      $scope.slideChanged = function(index) {
-        $scope.slideIndex = index;
-      };
+//      $scope.startApp = function() {
+//        $state.go('login');
+//      };
+//      $scope.next = function() {
+//        $ionicSlideBoxDelegate.next();
+//      };
+//      $scope.previous = function() {
+//        $ionicSlideBoxDelegate.previous();
+//      };
+//
+//      // Called each time the slide changes
+//      $scope.slideChanged = function(index) {
+//        $scope.slideIndex = index;
+//      };
 
 
 
@@ -200,11 +200,13 @@ function ($scope, $stateParams, localStorageService, groceryCategory) {
 /*Added by Arthur*/
 
 /* Populate weekly menu page list with recipes data from json */
-.controller('weeklyMenuListCtrl', ['$scope', '$stateParams', '$http', 
-//'weeklyMenuAlterFactory', 
+.controller('weeklyMenuListCtrl', ['$scope', '$stateParams', '$http', 'weeklyMenuAlterFactory', 
 
 function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
 
+
+    var a = weeklyMenuAlterFactory.get();
+    console.log( a );
 
     $http.get('/js/api/weekly.json')
        .then(function(response){
@@ -238,9 +240,9 @@ function ($scope, $stateParams, $http, weeklyMenuAlterFactory ) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
-    simpleLogin.logout();
-    console.log('User logged out');
-    $location.path('/login');
+//    simpleLogin.logout();
+//    console.log('User logged out');
+//    $location.path('/login');
 
 }])
  
