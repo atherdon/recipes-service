@@ -169,7 +169,7 @@ function ($scope, $stateParams, localStorageService, groceryCategory) {
 // @TODO add page for flushing checkboxes
 
    groceryCategory.getCategory( function(data){
-       
+//       console.log( data.items );
         $scope.ingredients = data.items;
 
     });

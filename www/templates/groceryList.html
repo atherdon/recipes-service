@@ -12,12 +12,23 @@
             </ion-item>
             
             <ion-item class="item-icon-left" id="groceryList-list-item{{ category.category_id }}" 
-                      ui-sref="tabsController.category:/{{ category.category_id }}"
+                      ui-sref="tabsController.dRYGOODS"
+                      
                       ng-repeat="category in categories">
                 <!--<i class="icon ion-ios-arrow-down"></i>-->
                 <i class="icon ion-ios-arrow-right"></i>
                 {{ category.name }}
             </ion-item>
+            
+            
+<!--            <ion-item class="item-icon-left" id="groceryList-list-item{{ category.category_id }}" 
+                      ui-sref="tabsController.category:/{{ category.category_id }}"
+                      dRYGOODS
+                      ng-repeat="category in categories">
+                <i class="icon ion-ios-arrow-down"></i>
+                <i class="icon ion-ios-arrow-right"></i>
+                {{ category.name }}
+            </ion-item>-->
             
         </ion-list>
     </ion-content>
