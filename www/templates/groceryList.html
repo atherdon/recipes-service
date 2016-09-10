@@ -3,15 +3,8 @@
         
         
         
-        <ion-list id="groceryList-list12" ng-repeat="category in categories">
+        <ion-list id="groceryList-list12" >
 
-
-            <!--{{ grocery[0].category_id }}-->
-            <!--{{ grocery[0].name }}-->
-            <!--{{ grocery[0].items[0].name }}-->
-            <!--{{ grocery[0].items[1].name }}-->
-            
-            
             <ion-item class="item-icon-left assertive" id="groceryList-list-item54" 
                       ui-sref="tabsController.recipesCalendar">
                 <i class="icon ion-ios-calendar-outline"></i>
@@ -19,29 +12,12 @@
             </ion-item>
             
             <ion-item class="item-icon-left" id="groceryList-list-item{{ category.category_id }}" 
-                      ui-sref="tabsController.category:/{{ category.category_id }}">
-                <i class="icon ion-ios-arrow-down"></i>
+                      ui-sref="tabsController.category:/{{ category.category_id }}"
+                      ng-repeat="category in categories">
+                <!--<i class="icon ion-ios-arrow-down"></i>-->
+                <i class="icon ion-ios-arrow-right"></i>
                 {{ category.name }}
             </ion-item>
-            
-<!--            <ion-item class="item-icon-left" id="groceryList-list-item65" 
-                      ui-sref="tabsController.dRYGOODS">
-                <i class="icon ion-ios-arrow-down"></i>
-                Beverages
-            </ion-item>
-            
-            <ion-item class="item-icon-left" id="groceryList-list-item66" 
-                      ui-sref="tabsController.dRYGOODS">
-                <i class="icon ion-ios-arrow-down"></i>
-                Diary
-            </ion-item>
-            
-            <ion-item class="item-icon-left" id="groceryList-list-item67">
-                <i class="icon ion-ios-arrow-down"></i>
-                DRY GOODS
-            </ion-item>-->
-            
-            
             
         </ion-list>
     </ion-content>

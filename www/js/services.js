@@ -25,7 +25,7 @@ angular.module('app.services', [])
 }])
 
 
-.factory('weeklyMenuAlterFactory', [function( $http ){
+.factory('weeklyMenuAlterFactory', ['$http', function( $http ){
 
 
     return {
@@ -57,7 +57,7 @@ angular.module('app.services', [])
                 
                 return $http.get('/js/api/grocery.json');
             },
-            getCategory: function(callback, de) {
+            getCategory: function(callback) {
                 
                 $http.get('/js/api/grocery.json').then(function(response) {
                     
@@ -75,6 +75,25 @@ angular.module('app.services', [])
                 });
                 
 
+            },
+            getCategories: function(callback){
+                
+                var array = [];
+                
+                $http.get('/js/api/grocery.json').then(function(response) {
+                    
+                    angular.forEach( response.data, function(value, key){
+
+                        array.push({
+                            "category_id" : value.category_id,
+                            "name"        : value.name
+                        });
+
+
+                    });
+                    callback(array);
+
+                });
             }
 
     }

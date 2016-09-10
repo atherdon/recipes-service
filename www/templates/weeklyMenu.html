@@ -10,72 +10,25 @@
             </p>
         </div>
         
-        <ion-list id="weeklyMenu-list2">
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.singleRecipe">
-                <!-- {{ weekly.items[0].id }} -->
-                <img src="{{ data.items[0].img }}">
+        <ion-list id="weeklyMenu-list2" ng-repeat="item in data.items"> 
+            
+            
+            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.singleRecipe/:{{ item.id }}">
+                
+                <img src="{{ item.img }}" alt="{{ item.title }}">
                 <h2 style="white-space:normal;">
-                      {{ data.items[0].title }}
-                      
+                      {{ item.title }}                      
                 </h2>
                 <p style="white-space:normal;">
-                    {{ data.items[0].weekDay }}                     
+                    {{ item.weekDay }}                     
                 </p>
                 <h5 style="white-space:normal;">
-                    {{ data.items[0].recipeDescription }}                     
+                    {{ item.recipeDescription }}                     
                 </h5>
                 
             </ion-item>
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item5" ui-sref="tabsController.singleRecipe">
-                <!-- {{ weekly.items[1].id }} -->
-                <img src="{{ data.items[1].img }}">
-                <h2 style="white-space:normal;">
-                    {{ data.items[1].weekDay }}
-                </h2>
-                <p style="white-space:normal;">
-                    {{ data.items[1].title }}
-                </p>
-            </ion-item>
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item6" ui-sref="tabsController.singleRecipe">
-                <!-- {{ weekly.items[2].id }} -->
-                <img src="{{ data.items[2].img }}">
-                <h2 style="white-space:normal;">
-                     {{ data.items[2].weekDay }}
-                </h2>
-                <p style="white-space:normal;">
-                    {{ data.items[2].title }}
-                </p>
-            </ion-item>
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item7">
-                <!-- {{ weekly.items[3].id }} -->
-                <img src="{{ data.items[3].img }}">
-                <h2 style="white-space:normal;">
-                     {{ data.items[3].weekDay }}
-                </h2>
-                <p style="white-space:normal;">
-                    {{ data.items[3].title }}
-                </p>
-            </ion-item>
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item8">
-                <!-- {{ weekly.items[4].id }} -->
-                <img src="{{ data.items[4].img }}">
-                <h2 style="white-space:normal;">
-                     {{ data.items[4].weekDay }}
-                </h2>
-                <p style="white-space:normal;">
-                    {{ data.items[4].title }}
-                </p>
-            </ion-item>
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item90">
-                <!-- {{ weekly.items[5].id }} -->
-                <img src="{{ data.items[5].img }}">
-                <h2 style="white-space:normal;">
-                     {{ data.items[5].weekDay }}
-                </h2>
-                <p style="white-space:normal;">
-                    {{ data.items[5].title }}
-                </p>
-            </ion-item>
+            <ion-item class="item-divider" id="styledSingleRecipe-list-item-divider1"></ion-item>
+            
         </ion-list>
         
         
