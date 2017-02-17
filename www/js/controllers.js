@@ -16,7 +16,8 @@ function ($scope, $stateParams, $http) {
            
            console.log( response );
            
-          $scope.recipe = response.data;                
+
+          $scope.recipes = response.data;               
         });
 
 }])
