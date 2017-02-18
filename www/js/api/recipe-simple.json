@@ -3,33 +3,38 @@
     "name": "Crock Pot Roast",
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
-    "recipeDescription" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+    
     "title"   : "Shrimp and Green Chili Grits, Simple Salad and Basic Vinaigrette",
     "ingredients": [
         {
             "quantity": "1",
-            "name": " beef roast",
-            "type": "Meat"
+            "name"    : " beef roast",
+            "type"   : "Meat",
+            "category_id": "1",
         },
         {
             "quantity": "1 package",
             "name": "brown gravy mix",
-            "type": "Baking"
+            "type": "Baking",
+            "category_id": "2",
         },
         {
             "quantity": "1 package",
             "name": "dried Italian salad dressing mix",
-            "type": "Condiments"
+            "type": "Condiments",
+            "category_id": "3",
         },
         {
             "quantity": "1 package",
             "name": "dry ranch dressing mix",
-            "type": "Condiments"
+            "type": "Condiments",
+            "category_id": "3",
         },
         {
             "quantity": "1/2 cup",
             "name": "water",
-            "type": "Drinks"
+            "type": "Drinks",
+            "category_id": "4",
         }
     ],
     "steps": [
@@ -38,10 +43,12 @@
         "Pour the water around the roast.",
         "Cook on low for 7-9 hours."
     ],
-    "meta": [
-        {"prepTime"    :"30min",
+    "meta": [{
+        "prepTime"    :"30min",
         "totalTime"   :"3h",
-        "recipeYield" :"8"}
+        "recipeYield" :"8",
+        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+    }
     ]
 },
 {
@@ -49,28 +56,38 @@
     "name": "Montreal Style Poutine",
     "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
-    "recipeDescription" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+    
     "title"   : "Baked Chicken Chimichangas, Borracho Beans",
     "ingredients": [
         {
             "quantity": "3",
-            "name": "medium russet potatoes, sliced into sticks"
+            "name": "medium russet potatoes, sliced into sticks",
+            "type": "Baking",
+            "category_id": "2",
         },
         {
             "quantity": "2",
-            "name": "tablespoons vegetable oil, divided"
+            "name": "tablespoons vegetable oil, divided",
+            "type": "Baking",
+            "category_id": "2",
         },
         {
             "quantity": "1",
-            "name": "salt & freshly ground black pepper, to taste"
+            "name": "salt & freshly ground black pepper, to taste",
+            "type": "Baking",
+            "category_id": "2",
         },
         {
             "quantity": "2 chopped",
-            "name": "scallions"
+            "name": "scallions",
+            "type": "Meat",
+            "category_id": "1",
         },
         {
             "quantity": "6",
-            "name": "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced"
+            "name": "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+            "type": "Drinks",
+            "category_id": "4",
         }
     ],
     "steps": [
@@ -79,39 +96,44 @@
         "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
         "Dice the cheese."
     ],
-    "meta": {
+    "meta": [{
         "prepTime"    :"PT30M",
         "totalTime"   :"PT3H",
-        "recipeYield" :"8"
-    }
+        "recipeYield" :"8",
+        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+    }]
 },
 {
     "id": "3", 
     "name": "Sausage Rolls",
     "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/42/95/22/kwvc1KW6SVWkoHndjvKN_sausage-rolls-1.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
-    "recipeDescription" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+    
     "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
     "ingredients": [
         {
             "quantity": "1",
             "name": "puff pastry",
-            "type": "Meat"
+            "type": "Meat",
+            "category_id": "1",
         },
         {
             "quantity": "1 package",
             "name": "bulk sausage",
-            "type": "Baking"
+            "type": "Baking",
+            "category_id": "2",
         },
         {
             "quantity": "1 package",
             "name": "flour",
-            "type": "Condiments"
+            "type": "Condiments",
+            "category_id": "3",
         },
         {
             "quantity": "1 package",
             "name": "milk",
-            "type": "Condiments"
+            "type": "Condiments",
+            "category_id": "3",
         }
     ],
     "steps": [
@@ -120,10 +142,10 @@
         "Divide sausage into 2 portions, dust with flour, and form long rolls about the same length as the pastry.",
         "Place sausage in the middle of the pastry strips; brush pastry edges with milk, then seal long edge."
     ],
-    "meta": {
-        "prepTime"    :"10min",
-        "totalTime"   :"1h",
-        "recipeYield" :"8"
-
-    }
+    "meta": [{
+        "prepTime"    : "10min",
+        "totalTime"   : "1h",
+        "recipeYield" : "8",
+        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+    }]
 }]
