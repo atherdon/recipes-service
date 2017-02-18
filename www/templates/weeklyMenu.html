@@ -1,21 +1,21 @@
-<ion-view title="Weekly Menu" id="page2">
+<ion-view title="Weekly Menu" id="weeklyMenu">
     <ion-content padding="true" class="has-header">
         <h2 id="weeklyMenu-heading1" style="color:#000000;text-align:center;">
             <!--July 18-24-->
-            {{ data.title }}
+            September 5 - 11
         </h2>
         <div id="weeklyMenu-markdown1" style="color:#000000;text-align:center;">
             <p>
-                 {{ data.description }}
+                 "Happy Labor Day Weekend!! "
             </p>
         </div>
         
-        <ion-list id="weeklyMenu-list2" ng-repeat="item in data.items"> 
+        <ion-list id="weeklyMenu-list2" ng-repeat="item in data"> 
             
             
             <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.singleRecipe/:{{ item.id }}">
                 
-                <img src="{{ item.img }}" alt="{{ item.title }}">
+                <img src="{{ item.imageURL }}" alt="{{ item.title }}">
                 <h2 style="white-space:normal;">
                       {{ item.title }}                      
                 </h2>

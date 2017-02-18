@@ -14,7 +14,7 @@ angular.module('app.services', [])
 
 	var obj = {content:null};
 
-	$http.get('/api/weekly.json').success(function(data) {
+	$http.get('/js/api/recipe-simple.json').success(function(data) {
 		
         // you can do some processing here
         obj.content = data;
@@ -31,7 +31,7 @@ angular.module('app.services', [])
     return {
             get: function(){
 
-                return $http.get('/js/api/weekly.json');
+                return $http.get('/js/api/recipe-simple.json');
             }
             
     }

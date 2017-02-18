@@ -1,13 +1,4 @@
 angular.module('app.controllers', ['app.services'])
-  
-.controller('weeklyMenuCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-
-//    console.log('123');
-
-}])
          
 .controller('recipe', ['$scope', '$stateParams', '$http',
 function ($scope, $stateParams, $http) {
@@ -78,24 +69,6 @@ function ($scope, $stateParams) {
 }])
    
 .controller('ingredientsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-
-
-}])
-   
-.controller('uXSingleRecipeCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-
-
-//  $scope.recipe = SnackService.get($stateParams.recipeId);
-
-}])
-   
-.controller('uXSingleRecipe2Ctrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -191,7 +164,7 @@ function ($scope, $stateParams, localStorageService, groceryCategory) {
 /*Added by Arthur*/
 
 /* Populate weekly menu page list with recipes data from json */
-.controller('weeklyMenuListCtrl', ['$scope', '$stateParams', 'weeklyMenuAlterFactory', 
+.controller('weeklyMenuList', ['$scope', '$stateParams', 'weeklyMenuAlterFactory', 
 
 function ($scope, $stateParams, weeklyMenuAlterFactory ) {
 

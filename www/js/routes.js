@@ -11,12 +11,12 @@ angular.module('app.routes', ['ionicUIRouter'])
   
 
     .state('tabsController.weeklyMenu', {
-      url: '/page2',
+      url: '/weeklyMenu',
       views: {
         'tab1': {
           templateUrl: 'templates/weeklyMenu.html',
 //          controller: 'weeklyMenuCtrl'
-          controller: 'weeklyMenuListCtrl'
+          controller: 'weeklyMenuList'
           
         }
       }
@@ -30,7 +30,7 @@ angular.module('app.routes', ['ionicUIRouter'])
   })
 
 
-  .state('tabsController.singleRecipe', {
+  .state('tabsController.recipe', {
     url: '/recipe',
     views: {
       'tab1': {
@@ -79,21 +79,6 @@ angular.module('app.routes', ['ionicUIRouter'])
     templateUrl: 'templates/ingredients.html',
     controller: 'ingredientsCtrl'
   })
-
-
-  .state('uXSingleRecipe', {
-    url: '/page11',
-    templateUrl: 'templates/uXSingleRecipe.html',
-    controller: 'uXSingleRecipeCtrl'
-  })
-
-
-  .state('uXSingleRecipe2', {
-    url: '/page18',
-    templateUrl: 'templates/uXSingleRecipe2.html',
-    controller: 'uXSingleRecipe2Ctrl'
-  })
-
 
   .state('directions', {
     url: '/page12',

@@ -3,6 +3,8 @@
     "name": "Crock Pot Roast",
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "recipeDescription" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+    "title"   : "Shrimp and Green Chili Grits, Simple Salad and Basic Vinaigrette",
     "ingredients": [
         {
             "quantity": "1",
@@ -47,6 +49,8 @@
     "name": "Montreal Style Poutine",
     "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "recipeDescription" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
     "ingredients": [
         {
             "quantity": "3",
@@ -86,6 +90,8 @@
     "name": "Sausage Rolls",
     "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/42/95/22/kwvc1KW6SVWkoHndjvKN_sausage-rolls-1.jpg",
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "recipeDescription" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+    "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
     "ingredients": [
         {
             "quantity": "1",
