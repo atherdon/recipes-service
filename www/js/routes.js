@@ -31,11 +31,11 @@ angular.module('app.routes', ['ionicUIRouter'])
 
 
   .state('tabsController.singleRecipe', {
-    url: '/page5',
+    url: '/recipe',
     views: {
       'tab1': {
-        templateUrl: 'templates/singleRecipe.html',
-        controller: 'singleRecipeCtrl'
+        templateUrl: 'templates/recipe.html',
+        controller: 'recipe'
       }
     }
   })
