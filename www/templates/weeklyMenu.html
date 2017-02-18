@@ -13,7 +13,7 @@
         <ion-list id="weeklyMenu-list2" ng-repeat="item in data"> 
             
             
-            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.singleRecipe/:{{ item.id }}">
+            <ion-item class="item-thumbnail-left" id="weeklyMenu-list-item4" ui-sref="tabsController.recipe/:{{ item.id }}">
                 
                 <img src="{{ item.imageURL }}" alt="{{ item.title }}">
                 <h2 style="white-space:normal;">
