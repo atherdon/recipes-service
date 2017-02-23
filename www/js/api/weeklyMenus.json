@@ -4,7 +4,9 @@
         "user_id"     : "",
         "title"       : "September 5 - 11",
         "created_at"  : "09/02/16", 
+
         "description" : "Happy Labor Day Weekend!! "  
+
     },
     
 
@@ -25,11 +27,13 @@
             
             "unit_type" : "simple",
             "quantity"  : "1",
+
             "unit_name" : "beef roast", 
 
             "category"  : {
                 "id" : "1",
                 "name"   : "Meat"
+
             }
             
             
@@ -43,7 +47,9 @@
 
             "category"  : {
                 "id" : "2",
+
                 "name"   : "Baking"
+
             }
 
            
@@ -57,6 +63,7 @@
             "category"  : {
                 "id" : "3",
                 "name"   : "Condiments"
+
             }
 
             
@@ -69,7 +76,9 @@
 
             "category"  : {
                 "id" : "3",
+
                 "name"   : "Condiments"
+
             }
 
         },
@@ -82,6 +91,7 @@
             "category"  : {
                 "id" : "4",
                 "name"   : "Drinks"
+
             }
 
            
@@ -97,7 +107,9 @@
         "prepTime"    :"30min",
         "totalTime"   :"3h",
         "recipeYield" :"8",
+
         "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
+
     }
     ]
 }
@@ -135,92 +147,94 @@
             "weekDay" : "tuesday",
             "recipes" : [
                 {
-    "id": "2", 
-    "name": "Montreal Style Poutine",
-    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
-    
-    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
-    "ingredients": [
-        {
 
-            "unit_type" : "simple",
-            "quantity"  : "3",
-            "unit_name" : "medium russet potatoes, sliced into sticks",
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
 
-            "category"  : {
-                "id" : "2",
-                "name"   : "Baking"
-            }
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
 
-          
-        },
-        {
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
 
-            "unit_type" : "simple",
-            "quantity"  : "2",
-            "unit_name" : "tablespoons vegetable oil, divided",
+                          
+                        },
+                        {
 
-            "category"  : {
-                "id" : "2",
-                "name"   : "Baking"
-            }
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
 
-      
-        },
-        {
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
 
-            "unit_type" : "simple",
-            "quantity"  : "1",
-            "unit_name" : "salt & freshly ground black pepper, to taste",
+                      
+                        },
+                        {
 
-            "category"  : {
-                "id" : "2",
-                "name"   : "Baking"
-            }
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
 
-      
-        },
-        {
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
 
-            "unit_type" : "simple",
-            "quantity"  : "2 chopped",
-            "unit_name" : "scallions",
+                      
+                        },
+                        {
 
-            "category"  : {
-                "id" : "1",
-                "name"   : "Meat"
-            }
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
 
-        
-        },
-        {
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
 
-            "unit_type" : "simple",
-            "quantity"  : "1",
-            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+                        
+                        },
+                        {
 
-            "category"  : {
-                "id" : "4",
-                "name"   : "Drinks"
-            }
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
 
-           
-        }
-    ],
-    "steps": [
-        "Set the oven to 400 degrees F.",
-        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
-        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
-        "Dice the cheese."
-    ],
-    "meta": [{
-        "prepTime"    :"PT30M",
-        "totalTime"   :"PT3H",
-        "recipeYield" :"8",
-        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  "
-    }]
-}
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -254,72 +268,55 @@
             "id"      : "3",
             "weekDay" : "wednesday",
             "recipes" : [
-{
-    "id": "3", 
-    "name": "Sausage Rolls",
-    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/42/95/22/kwvc1KW6SVWkoHndjvKN_sausage-rolls-1.jpg",
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
-    
-    "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
-    "ingredients": [
-        {
-            
-            "unit_type" : "simple",
-            "quantity"  : "1",
-            "unit_name" : "puff pastry", 
 
-            "category"  : {
-                "id" : "1",
-                "name"   : "Meat"
-            }
-        },
-        {
-            
-            "unit_type" : "simple",
-            "quantity"  : "1 package",
-            "unit_name" : "bulk sausage", 
+                {
+                    "id": "3", 
+                    "name": "Sausage Rolls",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/42/95/22/kwvc1KW6SVWkoHndjvKN_sausage-rolls-1.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
+                    "ingredients": [
+                        
+                        {
+                            "quantity": "1",
+                            "name": "puff pastry",
+                            "type": "Meat",
+                            "category_id": "1",
+                        },
+                        {
+                            "quantity": "1 package",
+                            "name": "bulk sausage",
+                            "type": "Baking",
+                            "category_id": "2",
+                        },
+                        {
+                            "quantity": "1 package",
+                            "name": "flour",
+                            "type": "Condiments",
+                            "category_id": "3",
+                        },
+                        {
+                            "quantity": "1 package",
+                            "name": "milk",
+                            "type": "Condiments",
+                            "category_id": "3",
+                        }
+                    ],
+                    "steps": [
+                        "Preheat oven to 400 degrees F.",
+                        "Roll pastry out into a thin rectangle; cut lengthwise into 2 long strips.",
+                        "Divide sausage into 2 portions, dust with flour, and form long rolls about the same length as the pastry.",
+                        "Place sausage in the middle of the pastry strips; brush pastry edges with milk, then seal long edge."
+                    ],
+                    "meta": [{
+                        "prepTime"    : "10min",
+                        "totalTime"   : "1h",
+                        "recipeYield" : "8",
+                        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+                    }]
+                }                
 
-            "category"  : {
-                "id" : "2",
-                "name"   : "Baking"
-            }
-        },
-        {
-            
-            "unit_type" : "Condiments",
-            "quantity"  : "1 package",
-            "unit_name" : "flour", 
-
-            "category"  : {
-                "id" : "3",
-                "name"   : "Baking"
-            }
-        },
-        {
-            
-            "unit_type" : "Condiments",
-            "quantity"  : "1 package",
-            "unit_name" : "milk", 
-
-            "category"  : {
-                "id" : "4",
-                "name"   : "Baking"
-            }
-        }
-    ],
-    "steps": [
-        "Preheat oven to 400 degrees F.",
-        "Roll pastry out into a thin rectangle; cut lengthwise into 2 long strips.",
-        "Divide sausage into 2 portions, dust with flour, and form long rolls about the same length as the pastry.",
-        "Place sausage in the middle of the pastry strips; brush pastry edges with milk, then seal long edge."
-    ],
-    "meta": [{
-        "prepTime"    : "10min",
-        "totalTime"   : "1h",
-        "recipeYield" : "8",
-        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!"
-    }]
-}                
             ],
 
             "nutritions": {
@@ -353,7 +350,182 @@
             "weekDay" : "thursday",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                },
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -387,7 +559,269 @@
             "weekDay" : "friday",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                },
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                },
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -420,7 +854,95 @@
             "weekDay" : "weekend",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -449,16 +971,19 @@
         } 
     ]
 
-},
+
+}, //@todo add different content to second weekly menu example
 
 
 {
     "meta"        : {
         "id"          : "",
         "user_id"     : "",
+
         "title"       : "September 12 - 19",
         "created_at"  : "09/12/16", 
         "description" : "Happy Hanukkah Weekend!! " 
+
     },
     
 
@@ -469,21 +994,25 @@
             "recipes" : [
 {
     "id": "1", 
+
     "name": "Ecuadorean Shrimp Ceviche with Oranges",
     "imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/52/19/QJLodvsfTSm9nXWrkTwB_26.jpg",
     "originalURL": "http://www.food.com/recipe/ecuadorean-shrimp-ceviche-with-oranges-5219",
     
     "title"   : "Ecuadorean Shrimp Ceviche with Oranges",
+
     "ingredients": [
         {
             
             "unit_type" : "simple",
             "quantity"  : "1",
+
             "unit_name" : "large tomatoes",
 
             "category"  : {
                 "id" : "1",
                 "name"   : "vegetables"
+
             }
             
             
@@ -492,12 +1021,14 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "2",
             "name"      : "jalapeno peppers",
 
             "category"  : {
                 "id" : "2",
                 "name"   : "vegetables"
+
             }
 
            
@@ -505,12 +1036,14 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "1",
             "unit_name" : "red bell pepper",
 
             "category"  : {
                 "id" : "3",
                 "name"   : "vegetables"
+
             }
 
             
@@ -518,30 +1051,35 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "3/4 cup",
             "unit_name" : "lime juice",
 
             "category"  : {
                 "id" : "4",
                 "name"   : "Drinks"
+
             }
 
         },
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "1",
             "unit_name" : "yellow onion",
 
             "category"  : {
                 "id" : "5",
                 "name"   : "vegetables"
+
             }
 
            
         }
     ],
     "steps": [
+
         "Preheat the oven to 500 degrees.",
         "Place the tomato, jalapenos, bell pepper and onion, cut sides down, on the pan.",
         "Remove the shrimp from the pot, place in a colander and run very cold water over the shrimp.",
@@ -552,6 +1090,7 @@
         "totalTime"   :"4h",
         "recipeYield" :"5",
         "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
+
     }
     ]
 }
@@ -588,6 +1127,7 @@
             "id"      : "2",
             "weekDay" : "tuesday",
             "recipes" : [
+
                 {
     "id": "2", 
     "name": "Stir-Fried Shrimp in Garlic Sauce",
@@ -595,16 +1135,19 @@
     "originalURL": "http://www.food.com/recipe/stir-fried-shrimp-in-garlic-sauce-36561",
     
     "title"   : "Stir-Fried Shrimp in Garlic Sauce",
+
     "ingredients": [
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "1",
             "unit_name" : "large shrimp",
 
             "category"  : {
                 "id" : "1",
                 "name"   : "Baking"
+
             }
 
           
@@ -612,12 +1155,14 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "3 1/2",
             "unit_name" : "cups assorted fresh vegetables",
 
             "category"  : {
                 "id" : "2",
                 "name"   : "vegetables"
+
             }
 
       
@@ -625,12 +1170,14 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "1 cup",
             "unit_name" : "chicken broth",
 
             "category"  : {
                 "id" : "3",
                 "name"   : "Meat"
+
             }
 
       
@@ -638,12 +1185,14 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "9",
             "unit_name" : "cloves garlic",
 
             "category"  : {
                 "id" : "4",
                 "name"   : "vegetables"
+
             }
 
         
@@ -651,18 +1200,21 @@
         {
 
             "unit_type" : "simple",
+
             "quantity"  : "1 teaspoon",
             "unit_name" : "rice wine vinegar",
 
             "category"  : {
                 "id" : "5",
                 "name"   : "Drinks"
+
             }
 
            
         }
     ],
     "steps": [
+
         "In a small bowl, mix together chicken broth, vinegar, soy sauce, sesame oil, chile paste (if using) and sherry; set aside.",
         "In another small bowl or cup, stir together the tbsp of cornstarch with the 3 tbsp of water and set aside.",
         "Heat the oil over medium-high heat in a wok; add ginger and garlic and sizzle briefly, then add vegetables and Thai chilies (if using).",
@@ -674,6 +1226,7 @@
         "totalTime"   :"PT7M",
         "recipeYield" :"8",
         "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  "
+
     }]
 }
             ],
@@ -711,6 +1264,7 @@
             "recipes" : [
 {
     "id": "3", 
+
     "name": "Tartiflette -- the indulgent version",
     "imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/40/60/3/soqtyLGHRTqDdTupe56S_0S9A5163.jpg",
     "originalURL": "http://www.food.com/recipe/tartiflette-the-indulgent-version-40603",
@@ -785,6 +1339,7 @@
         "totalTime"   : "30min",
         "recipeYield" : "8",
         "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!"
+
     }]
 }                
             ],
@@ -820,7 +1375,95 @@
             "weekDay" : "thursday",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -854,7 +1497,95 @@
             "weekDay" : "friday",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -887,7 +1618,182 @@
             "weekDay" : "weekend",
 
             "recipes" : [
-                
+
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                },
+                {
+                    "id": "2", 
+                    "name": "Montreal Style Poutine",
+                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
+                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    
+                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "3",
+                            "unit_name" : "medium russet potatoes, sliced into sticks",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "tablespoons vegetable oil, divided",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "salt & freshly ground black pepper, to taste",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 chopped",
+                            "unit_name" : "scallions",
+
+                            "category"  : {
+                                "id" : "1",
+                                "name"   : "Meat",
+                            }
+
+                        
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1",
+                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+
+                            "category"  : {
+                                "id" : "4",
+                                "name"   : "Drinks",
+                            }
+
+                           
+                        }
+                    ],
+                    "steps": [
+                        "Set the oven to 400 degrees F.",
+                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
+                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
+                        "Dice the cheese."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT30M",
+                        "totalTime"   :"PT3H",
+                        "recipeYield" :"8",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                    }]
+                }
+
             ],
 
             "nutritions": {
@@ -916,4 +1822,6 @@
         } 
     ]
 
+
 }]
+
