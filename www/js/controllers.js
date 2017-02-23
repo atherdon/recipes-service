@@ -130,29 +130,29 @@ function ($scope, $stateParams, localStorageService, groceryCategory) {
     });
 //   console.log(groceryCategory.zaz);
     
-    var defaultValJs = Array.apply(null, Array( 30 )).map(function () {});;
+    // var defaultValJs = Array.apply(null, Array( 30 )).map(function () {});;
 
     
-    var EngObj   = localStorageService.get("StoredCheck");
-    if( !EngObj ) {
+    // var EngObj   = localStorageService.get("StoredCheck");
+    // if( !EngObj ) {
         
-        $scope.objc = defaultValJs;
-    }
-    else {
+    //     $scope.objc = defaultValJs;
+    // }
+    // else {
         
-        $scope.objc = EngObj;
-    }
+    //     $scope.objc = EngObj;
+    // }
     
-    if( false ){ // count more than 100
-        localStorageService.clearAll();
-    }
+    // if( false ){ // count more than 100
+    //     localStorageService.clearAll();
+    // }
     
     
-    $scope.save = function( val ) {
+    // $scope.save = function( val ) {
 
-        $scope.objc[val] = $scope.objc[val];      
-        localStorageService.set( "StoredCheck", $scope.objc );
-    }
+    //     $scope.objc[val] = $scope.objc[val];      
+    //     localStorageService.set( "StoredCheck", $scope.objc );
+    // }
 
 }])
 
