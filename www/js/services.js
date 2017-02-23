@@ -9,12 +9,34 @@ angular.module('app.services', [])
 }])
 
 
+.service('getRecipeId', [function( $http ){
+
+    //comment: return recipe ID from recipe list
+    var getRecipeMethod = {
+        'get': function( recipeId ){
+            var result = null;
+            angular.forEach(recipeList, function(v){
+                if (v.id == recipeId) result = v;
+            })
+
+            return result;
+        },
+        'getRecipe': function( recipeId ){
+            var result = getRecipeMethod.get(recipeId);
+
+            return result;
+        }
+    }
+
+}])
+
+
 //similar functions
 .factory('weeklyMenu', [function( $http ){
 
 	var obj = {content:null};
 
-	$http.get('/js/api/recipe-simple.json').success(function(data) {
+	$http.get('/js/api/weeklyMenus.json').success(function(data) {
 		
         // you can do some processing here
         obj.content = data;
@@ -31,7 +53,7 @@ angular.module('app.services', [])
     return {
             get: function(){
 
-                return $http.get('/js/api/recipe-simple.json');
+                return $http.get('/js/api/weeklyMenus.json');
             }
             
     }
