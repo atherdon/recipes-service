@@ -4,7 +4,7 @@
         "user_id"     : "",
         "title"       : "September 5 - 11",
         "created_at"  : "09/02/16", 
-        "description" : "Happy Labor Day Weekend!! ",   
+        "description" : "Happy Labor Day Weekend!! "  
     },
     
 
@@ -25,11 +25,11 @@
             
             "unit_type" : "simple",
             "quantity"  : "1",
-            "unit_name" : "beef roast", //@todo add " " between quantity and unit_name in view
+            "unit_name" : "beef roast", 
 
             "category"  : {
                 "id" : "1",
-                "name"   : "Meat",
+                "name"   : "Meat"
             }
             
             
@@ -43,7 +43,7 @@
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "Baking"
             }
 
            
@@ -56,7 +56,7 @@
 
             "category"  : {
                 "id" : "3",
-                "name"   : "Condiments",
+                "name"   : "Condiments"
             }
 
             
@@ -69,7 +69,7 @@
 
             "category"  : {
                 "id" : "3",
-                "name"   : "Condiments",
+                "name"   : "Condiments"
             }
 
         },
@@ -81,7 +81,7 @@
 
             "category"  : {
                 "id" : "4",
-                "name"   : "Drinks",
+                "name"   : "Drinks"
             }
 
            
@@ -97,7 +97,7 @@
         "prepTime"    :"30min",
         "totalTime"   :"3h",
         "recipeYield" :"8",
-        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
     }
     ]
 }
@@ -150,7 +150,7 @@
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "Baking"
             }
 
           
@@ -163,7 +163,7 @@
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "Baking"
             }
 
       
@@ -176,7 +176,7 @@
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "Baking"
             }
 
       
@@ -189,7 +189,7 @@
 
             "category"  : {
                 "id" : "1",
-                "name"   : "Meat",
+                "name"   : "Meat"
             }
 
         
@@ -202,7 +202,7 @@
 
             "category"  : {
                 "id" : "4",
-                "name"   : "Drinks",
+                "name"   : "Drinks"
             }
 
            
@@ -218,7 +218,7 @@
         "prepTime"    :"PT30M",
         "totalTime"   :"PT3H",
         "recipeYield" :"8",
-        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  "
     }]
 }
             ],
@@ -262,30 +262,49 @@
     
     "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
     "ingredients": [
-        //Hello :) you need to change it like in previous recipes
         {
-            "quantity": "1",
-            "name": "puff pastry",
-            "type": "Meat",
-            "category_id": "1",
+            
+            "unit_type" : "simple",
+            "quantity"  : "1",
+            "unit_name" : "puff pastry", 
+
+            "category"  : {
+                "id" : "1",
+                "name"   : "Meat"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "bulk sausage",
-            "type": "Baking",
-            "category_id": "2",
+            
+            "unit_type" : "simple",
+            "quantity"  : "1 package",
+            "unit_name" : "bulk sausage", 
+
+            "category"  : {
+                "id" : "2",
+                "name"   : "Baking"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "flour",
-            "type": "Condiments",
-            "category_id": "3",
+            
+            "unit_type" : "Condiments",
+            "quantity"  : "1 package",
+            "unit_name" : "flour", 
+
+            "category"  : {
+                "id" : "3",
+                "name"   : "Baking"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "milk",
-            "type": "Condiments",
-            "category_id": "3",
+            
+            "unit_type" : "Condiments",
+            "quantity"  : "1 package",
+            "unit_name" : "milk", 
+
+            "category"  : {
+                "id" : "4",
+                "name"   : "Baking"
+            }
         }
     ],
     "steps": [
@@ -298,7 +317,7 @@
         "prepTime"    : "10min",
         "totalTime"   : "1h",
         "recipeYield" : "8",
-        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!"
     }]
 }                
             ],
@@ -430,14 +449,16 @@
         } 
     ]
 
-}, //@todo add different content to second weekly menu example
+},
+
+
 {
     "meta"        : {
         "id"          : "",
         "user_id"     : "",
-        "title"       : "September 5 - 11",
-        "created_at"  : "09/02/16", 
-        "description" : "Happy Labor Day Weekend!! ",   
+        "title"       : "September 12 - 19",
+        "created_at"  : "09/12/16", 
+        "description" : "Happy Hanukkah Weekend!! " 
     },
     
 
@@ -448,21 +469,21 @@
             "recipes" : [
 {
     "id": "1", 
-    "name": "Crock Pot Roast",
-    "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "name": "Ecuadorean Shrimp Ceviche with Oranges",
+    "imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/52/19/QJLodvsfTSm9nXWrkTwB_26.jpg",
+    "originalURL": "http://www.food.com/recipe/ecuadorean-shrimp-ceviche-with-oranges-5219",
     
-    "title"   : "Shrimp and Green Chili Grits, Simple Salad and Basic Vinaigrette",
+    "title"   : "Ecuadorean Shrimp Ceviche with Oranges",
     "ingredients": [
         {
             
             "unit_type" : "simple",
             "quantity"  : "1",
-            "unit_name" : "beef roast", //@todo add " " between quantity and unit_name in view
+            "unit_name" : "large tomatoes",
 
             "category"  : {
                 "id" : "1",
-                "name"   : "Meat",
+                "name"   : "vegetables"
             }
             
             
@@ -471,12 +492,12 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1 package",
-            "name"      : "brown gravy mix",
+            "quantity"  : "2",
+            "name"      : "jalapeno peppers",
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "vegetables"
             }
 
            
@@ -484,12 +505,12 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1 package",
-            "unit_name" : "dried Italian salad dressing mix",
+            "quantity"  : "1",
+            "unit_name" : "red bell pepper",
 
             "category"  : {
                 "id" : "3",
-                "name"   : "Condiments",
+                "name"   : "vegetables"
             }
 
             
@@ -497,40 +518,40 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1 package",
-            "unit_name" : "dry ranch dressing mix",
+            "quantity"  : "3/4 cup",
+            "unit_name" : "lime juice",
 
             "category"  : {
-                "id" : "3",
-                "name"   : "Condiments",
+                "id" : "4",
+                "name"   : "Drinks"
             }
 
         },
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1/2 cup",
-            "unit_name" : "water",
+            "quantity"  : "1",
+            "unit_name" : "yellow onion",
 
             "category"  : {
-                "id" : "4",
-                "name"   : "Drinks",
+                "id" : "5",
+                "name"   : "vegetables"
             }
 
            
         }
     ],
     "steps": [
-        "Place beef roast in crock pot.",
-        "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-        "Pour the water around the roast.",
-        "Cook on low for 7-9 hours."
+        "Preheat the oven to 500 degrees.",
+        "Place the tomato, jalapenos, bell pepper and onion, cut sides down, on the pan.",
+        "Remove the shrimp from the pot, place in a colander and run very cold water over the shrimp.",
+        "Taste and season with Tabasco and salt to taste. Pour the sauce over the shrimp and toss."
     ],
     "meta": [{
-        "prepTime"    :"30min",
-        "totalTime"   :"3h",
-        "recipeYield" :"8",
-        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+        "prepTime"    :"10min",
+        "totalTime"   :"4h",
+        "recipeYield" :"5",
+        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
     }
     ]
 }
@@ -569,21 +590,21 @@
             "recipes" : [
                 {
     "id": "2", 
-    "name": "Montreal Style Poutine",
-    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "name": "Stir-Fried Shrimp in Garlic Sauce",
+    "imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/36/56/1/EmgEEFXScy7ulq4pYZkL_garlic-shrimp-stir-fry-4875.jpg",
+    "originalURL": "http://www.food.com/recipe/stir-fried-shrimp-in-garlic-sauce-36561",
     
-    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+    "title"   : "Stir-Fried Shrimp in Garlic Sauce",
     "ingredients": [
         {
 
             "unit_type" : "simple",
-            "quantity"  : "3",
-            "unit_name" : "medium russet potatoes, sliced into sticks",
+            "quantity"  : "1",
+            "unit_name" : "large shrimp",
 
             "category"  : {
-                "id" : "2",
-                "name"   : "Baking",
+                "id" : "1",
+                "name"   : "Baking"
             }
 
           
@@ -591,12 +612,12 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "2",
-            "unit_name" : "tablespoons vegetable oil, divided",
+            "quantity"  : "3 1/2",
+            "unit_name" : "cups assorted fresh vegetables",
 
             "category"  : {
                 "id" : "2",
-                "name"   : "Baking",
+                "name"   : "vegetables"
             }
 
       
@@ -604,12 +625,12 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1",
-            "unit_name" : "salt & freshly ground black pepper, to taste",
+            "quantity"  : "1 cup",
+            "unit_name" : "chicken broth",
 
             "category"  : {
-                "id" : "2",
-                "name"   : "Baking",
+                "id" : "3",
+                "name"   : "Meat"
             }
 
       
@@ -617,12 +638,12 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "2 chopped",
-            "unit_name" : "scallions",
+            "quantity"  : "9",
+            "unit_name" : "cloves garlic",
 
             "category"  : {
-                "id" : "1",
-                "name"   : "Meat",
+                "id" : "4",
+                "name"   : "vegetables"
             }
 
         
@@ -630,28 +651,29 @@
         {
 
             "unit_type" : "simple",
-            "quantity"  : "1",
-            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
+            "quantity"  : "1 teaspoon",
+            "unit_name" : "rice wine vinegar",
 
             "category"  : {
-                "id" : "4",
-                "name"   : "Drinks",
+                "id" : "5",
+                "name"   : "Drinks"
             }
 
            
         }
     ],
     "steps": [
-        "Set the oven to 400 degrees F.",
-        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
-        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
-        "Dice the cheese."
+        "In a small bowl, mix together chicken broth, vinegar, soy sauce, sesame oil, chile paste (if using) and sherry; set aside.",
+        "In another small bowl or cup, stir together the tbsp of cornstarch with the 3 tbsp of water and set aside.",
+        "Heat the oil over medium-high heat in a wok; add ginger and garlic and sizzle briefly, then add vegetables and Thai chilies (if using).",
+        "Stir-fry vegetables for approximately 3 minutes, then add the shrimp.",
+        "Cook the shrimp 2 minutes or until it curls and turns opaque or pink."
     ],
     "meta": [{
-        "prepTime"    :"PT30M",
-        "totalTime"   :"PT3H",
+        "prepTime"    :"PT15M",
+        "totalTime"   :"PT7M",
         "recipeYield" :"8",
-        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  "
     }]
 }
             ],
@@ -689,49 +711,80 @@
             "recipes" : [
 {
     "id": "3", 
-    "name": "Sausage Rolls",
-    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/42/95/22/kwvc1KW6SVWkoHndjvKN_sausage-rolls-1.jpg",
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "name": "Tartiflette -- the indulgent version",
+    "imageURL": "http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/40/60/3/soqtyLGHRTqDdTupe56S_0S9A5163.jpg",
+    "originalURL": "http://www.food.com/recipe/tartiflette-the-indulgent-version-40603",
     
-    "title"   : "Glazed Turkey Cutlets with Arugula, Carrot and Celery Salad, Orzo with Chives",
+    "title"   : "Tartiflette -- the indulgent version",
     "ingredients": [
-        //Hello :) you need to change it like in previous recipes
         {
-            "quantity": "1",
-            "name": "puff pastry",
-            "type": "Meat",
-            "category_id": "1",
+
+            "unit_type" : "simple",
+            "quantity"  : "2",
+            "unit_name" : "lbs potatoes, boiled,peeled,and thinly sliced",
+
+            "category"  : {
+                "id" : "1",
+                "name"   : "vegetables"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "bulk sausage",
-            "type": "Baking",
-            "category_id": "2",
+
+            "unit_type" : "simple",
+            "quantity"  : "1/2",
+            "unit_name" : "lb bacon, cubed",
+
+            "category"  : {
+                "id" : "2",
+                "name"   : "Meat"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "flour",
-            "type": "Condiments",
-            "category_id": "3",
+
+            "unit_type" : "simple",
+            "quantity"  : "2",
+            "unit_name" : "onions, finely chopped",
+
+            "category"  : {
+                "id" : "3",
+                "name"   : "vegetables"
+            }
         },
         {
-            "quantity": "1 package",
-            "name": "milk",
-            "type": "Condiments",
-            "category_id": "3",
+
+            "unit_type" : "simple",
+            "quantity"  : "1",
+            "unit_name" : "lb swiss cheese or 1 lb emmenthaler cheese or 1 lb jarlsberg cheese, grated",
+
+            "category"  : {
+                "id" : "4",
+                "name"   : "Milk"
+            }
+        },
+        {
+
+            "unit_type" : "simple",
+            "quantity"  : "1",
+            "unit_name" : "cup heavy cream",
+
+            "category"  : {
+                "id" : "5",
+                "name"   : "Drinks"
+            }
         }
     ],
     "steps": [
-        "Preheat oven to 400 degrees F.",
-        "Roll pastry out into a thin rectangle; cut lengthwise into 2 long strips.",
-        "Divide sausage into 2 portions, dust with flour, and form long rolls about the same length as the pastry.",
-        "Place sausage in the middle of the pastry strips; brush pastry edges with milk, then seal long edge."
+        "Saute onions and salt pork in some butter.",
+        "Grease a gratin dish with some butter, then put a layer of potatoes, salt and pepper.",
+        "Spread the cooked onions and salt pork, then half of the cheese.",
+        "Cover with another layer of potatoes, salt and pepper.",
+        "Bake at 350F for about 30 minutes."
     ],
     "meta": [{
-        "prepTime"    : "10min",
-        "totalTime"   : "1h",
+        "prepTime"    : "20min",
+        "totalTime"   : "30min",
         "recipeYield" : "8",
-        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!"
     }]
 }                
             ],
@@ -863,4 +916,4 @@
         } 
     ]
 
-}
+}]
