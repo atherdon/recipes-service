@@ -1,7 +1,12 @@
 {
-	"title"       : "September 5 - 11",
-	"date"        : "09/02/16",
-	"description" : "Happy Labor Day Weekend!! ", 
+	"meta"        : {
+		"id"          : "",
+		"user_id"     : "",
+		"title"       : "September 5 - 11",
+		"created_at"  : "09/02/16",	
+		"description" : "Happy Labor Day Weekend!! ", 	
+	},
+	
 
 	"items" : [
 		{
