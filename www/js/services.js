@@ -9,6 +9,28 @@ angular.module('app.services', [])
 }])
 
 
+.service('getRecipeId', [function( $http ){
+
+    //comment: return recipe ID from recipe list
+    var getRecipeMethod = {
+        'get': function( recipeId ){
+            var result = null;
+            angular.forEach(recipeList, function(v){
+                if (v.id == recipeId) result = v;
+            })
+
+            return result;
+        },
+        'getRecipe': function( recipeId ){
+            var result = getRecipeMethod.get(recipeId);
+
+            return result;
+        }
+    }
+
+}])
+
+
 //similar functions
 .factory('weeklyMenu', [function( $http ){
 

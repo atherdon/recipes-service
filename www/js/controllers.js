@@ -1,15 +1,11 @@
 angular.module('app.controllers', ['app.services'])
          
-.controller('recipe', ['$scope', '$stateParams', '$http',
-function ($scope, $stateParams, $http) {
-  $http.get('/js/api/recipe-simple.json')
-       .then(function(response){
-           
-           console.log( response );
-           
+.controller('recipe', ['$scope', '$stateParams', 'getRecipeId','$http',
+function ($scope, $stateParams, getRecipeId,$http) {
 
-          $scope.recipes = response.data;               
-        });
+  
+
+
 
 }])
    
