@@ -53,7 +53,7 @@ GLUTEN MODIFICATIONS: Gluten free as written.
 
                 {
                     "id": "2", 
-                    "name": "Montreal Style Poutine",
+                    //"name": "Montreal Style Poutine",
                     "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
                     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
                     
@@ -135,7 +135,7 @@ GLUTEN MODIFICATIONS: Gluten free as written.
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
                         "notes"       : ""
                     }]
                 }
