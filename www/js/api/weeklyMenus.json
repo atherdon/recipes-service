@@ -108,7 +108,8 @@
         "totalTime"   :"3h",
         "recipeYield" :"8",
 
-        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
+        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+        "notes"       : ""
 
     }
     ]
@@ -231,7 +232,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -313,7 +315,8 @@
                         "prepTime"    : "10min",
                         "totalTime"   : "1h",
                         "recipeYield" : "8",
-                        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+                        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",,
+                        "notes"       : ""
                     }]
                 }                
 
@@ -435,7 +438,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 },
                 {
@@ -522,7 +526,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -644,7 +649,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 },
                 {
@@ -731,7 +737,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 },
                 {
@@ -818,7 +825,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -939,7 +947,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -1089,7 +1098,8 @@
         "prepTime"    :"10min",
         "totalTime"   :"4h",
         "recipeYield" :"5",
-        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! "
+        "description" : "Don't get me started on these bad boys!  Awesome!  Yes, that's a good description! ",
+        "notes"       : ""
 
     }
     ]
@@ -1225,7 +1235,8 @@
         "prepTime"    :"PT15M",
         "totalTime"   :"PT7M",
         "recipeYield" :"8",
-        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  "
+        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+        "notes"       : ""
 
     }]
 }
@@ -1338,7 +1349,8 @@
         "prepTime"    : "20min",
         "totalTime"   : "30min",
         "recipeYield" : "8",
-        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!"
+        "description" : "This is a must-try!  When everyone tried this, I heard comments like, 'this is the best thing I've ever tasted.'  Well, does that convince you?  And the Chimichangas are baked, not fried, so much healthier than the restaurants.  Total deliciousness!!",
+        "notes"       : ""
 
     }]
 }                
@@ -1460,7 +1472,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -1582,7 +1595,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
@@ -1703,7 +1717,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 },
                 {
@@ -1790,7 +1805,8 @@
                         "prepTime"    :"PT30M",
                         "totalTime"   :"PT3H",
                         "recipeYield" :"8",
-                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",
+                        "description" : "Who can resist Shrimp and Grits?  I know I certainly can't!!  This is outstanding - the kiddos cleaned their plates, as did the adults.  ",,
+                        "notes"       : ""
                     }]
                 }
 
