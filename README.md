@@ -1,5 +1,5 @@
-{<img src="https://codeclimate.com/github/atherdon/recipes-service/badges/issue_count.svg" />}[https://codeclimate.com/github/atherdon/recipes-service]
-{<img src="https://codeclimate.com/github/atherdon/recipes-service/badges/gpa.svg" />}[https://codeclimate.com/github/atherdon/recipes-service]
+<img src="https://codeclimate.com/github/atherdon/recipes-service/badges/issue_count.svg" />
+<img src="https://codeclimate.com/github/atherdon/recipes-service/badges/gpa.svg" />
 
 # recipes-service
 
