@@ -67,3 +67,187 @@ Slow Cooker Beef Bolognaise and Simple Green Beans
 
 Nutritional Information
 Serving Size: 121g Calories 86 Fat 5 Sat Fat 3 Sodium 48 Carbs 8 Fiber 3 Sugars 1 Protein 2.
+
+
+      {
+                    "id": "2", 
+                    //"name": "Montreal Style Poutine",
+                    "imageURL": "https://www.nomoretogo.com/wp-content/uploads/2012/11/beef-bolognaise-400x266.jpg",
+                    "originalURL": "// https://www.nomoretogo.com/sample-menu/slow-cooker-beef-bolognaise/        ",
+                    
+                    "title"   : "Slow Cooker Beef Bolognaise",
+                    "ingredients": [
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2-3",
+                            "unit_name" : "slices bacon",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                          
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1 tablespoon",
+                            "unit_name" : "butter",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1 cup",
+                            "unit_name" : "onion, minced",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1 cup",
+                            "unit_name" : "carrot, minced",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2 cloves",
+                            "unit_name" : "garlic, minced",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1 pound",
+                            "unit_name" : "ground beef, 80/20",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1/4 cup",
+                            "unit_name" : "dry white wine",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "28 ounces",
+                            "unit_name" : "crushed tomatoes",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "2",
+                            "unit_name" : "bay leaves",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "",
+                            "unit_name" : "kosher salt and pepper",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "1/4 cup",
+                            "unit_name" : "heavy cream",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        },
+                        {
+
+                            "unit_type" : "simple",
+                            "quantity"  : "8 ounces",
+                            "unit_name" : "spaghetti",
+
+                            "category"  : {
+                                "id" : "2",
+                                "name"   : "Baking",
+                            }
+
+                      
+                        }
+                    ],
+                    "steps": [
+                        "In a large pan, sauté bacon over medium heat for about 4-5 minutes. Add butter, onion, carrot, and garlic and cook until soft, about 5-8 minutes.",
+                        "Increase heat to medium high and add beef. Brown meat. Drain all in a colander in the sink.",
+                        "Place meat mixture in your slow cooker pot. Add wine, tomatoes and bay leaves. Stir to combine.",
+                        "Cook on low for about 6-8 hours. You cannot over cook this.",
+                        "Before serving remove bay leaves and stir in cream.",
+                        "Prepare pasta according to package directions.",
+                        "Spoon Bolognaise over pasta and serve."
+                    ],
+                    "meta": [{
+                        "prepTime"    :"PT7H",
+                        "totalTime"   :"PT10M",
+                        "recipeYield" :"4",
+                        "description" : "",
+                        "notes"       : ""
+                    }]
+                }
