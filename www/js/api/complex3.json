@@ -1,77 +1,20 @@
-// https://www.nomoretogo.com/sample-menu/slow-cooker-beef-bolognaise/        
 
 Slow Cooker Beef Bolognaise and Simple Green Beans
 
-Pull out the slow cooker! This is a fabulous sauce and is packed with flavor!  If spaghetti with meat sauce is a favorite at your house like it is at mine, double the recipe. It keeps in the freezer for months. Our family prefers spaghetti, but I really like rigatoni. The holes grab onto the sauce! A few green beans or a side salad and you’re set!
-
-https://www.nomoretogo.com/wp-content/uploads/2012/11/beef-bolognaise-400x266.jpg
-
-Green Beans
-
-SERVINGS : 4 PEOPLE PREP TIME : 10 MINUTES
-
-1 pound green beans, trimmed
-2 tablespoons butter, optional
-kosher salt and pepper
-
-
-Place green beans in a pan, cover with water, bring to a boil, reduce to a simmer, and let cook about 3 minutes or until bright green and crisp tender.
-Drain water, add butter, toss to melt, and season with salt and pepper.
-
-
-Nutritional Information
-Serving Size: 121g Calories 86 Fat 5 Sat Fat 3 Sodium 48 Carbs 8 Fiber 3 Sugars 1 Protein 2.
-
-
-Slow Cooker Beef Bolognaise
-SERVINGS : 4 PEOPLE COOK TIME : 7 HOURS PREP TIME : 10 MINUTES
-
-
-2-3 slices bacon
-1 tablespoon butter
-1 cup onion, minced
-1 cup carrot, minced
-2 cloves garlic, minced
-1 pound ground beef, 80/20
-1/4 cup dry white wine
-28 ounces crushed tomatoes
-2 bay leaves
-kosher salt and pepper
-1/4 cup heavy cream
-8 ounces spaghetti
-
-
-In a large pan, sauté bacon over medium heat for about 4-5 minutes. Add butter, onion, carrot, and garlic and cook until soft, about 5-8 minutes.
-Increase heat to medium high and add beef. Brown meat. Drain all in a colander in the sink.
-Place meat mixture in your slow cooker pot. Add wine, tomatoes and bay leaves. Stir to combine.
-Cook on low for about 6-8 hours. You cannot over cook this.
-Before serving remove bay leaves and stir in cream.
-Prepare pasta according to package directions.
-Spoon Bolognaise over pasta and serve.
-
-
-Nutritional Information
-Serving Size 501g Calories 708 Fat 19 Sat Fat 7 Sodium 745 Carbs 75 Sugars 13 Fiber 7 Protein 54
-
-
-NOTES
-KID NOTE:  After they got over the fact that there were carrots in the ‘spaghetti sauce’, it was smooth sailing and clean plates all around!
-VEGETARIAN TIP: Omit the beef and add a pound of chopped baby bella mushrooms.
-GLUTEN MODIFICATIONS:  Use brown rice pasta.
 
                 {
                     "id": "2", 
                     //"name": "Montreal Style Poutine",
-                    "imageURL": "http://img.sndimg.com/food/image/upload/h_479,w_639,c_fit/v1/img/recipes/51/78/46/BKN9rVETnqVjW3zddIJ1_0S9A4664.jpg",
-                    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+                    "imageURL": "https://www.nomoretogo.com/wp-content/uploads/2012/11/beef-bolognaise-400x266.jpg",
+                    "originalURL": "// https://www.nomoretogo.com/sample-menu/slow-cooker-beef-bolognaise/        ",
                     
-                    "title"   : "Baked Chicken Chimichangas, Borracho Beans",
+                    "title"   : "Green Beans",
                     "ingredients": [
                         {
 
                             "unit_type" : "simple",
-                            "quantity"  : "3",
-                            "unit_name" : "medium russet potatoes, sliced into sticks",
+                            "quantity"  : "1 pound",
+                            "unit_name" : "green beans, trimmed",
 
                             "category"  : {
                                 "id" : "2",
@@ -83,8 +26,8 @@ GLUTEN MODIFICATIONS:  Use brown rice pasta.
                         {
 
                             "unit_type" : "simple",
-                            "quantity"  : "2",
-                            "unit_name" : "tablespoons vegetable oil, divided",
+                            "quantity"  : "2 tablespoons",
+                            "unit_name" : "butter, optional",
 
                             "category"  : {
                                 "id" : "2",
@@ -96,8 +39,8 @@ GLUTEN MODIFICATIONS:  Use brown rice pasta.
                         {
 
                             "unit_type" : "simple",
-                            "quantity"  : "1",
-                            "unit_name" : "salt & freshly ground black pepper, to taste",
+                            "quantity"  : "",
+                            "unit_name" : "kosher salt and pepper",
 
                             "category"  : {
                                 "id" : "2",
@@ -105,45 +48,22 @@ GLUTEN MODIFICATIONS:  Use brown rice pasta.
                             }
 
                       
-                        },
-                        {
-
-                            "unit_type" : "simple",
-                            "quantity"  : "2 chopped",
-                            "unit_name" : "scallions",
-
-                            "category"  : {
-                                "id" : "1",
-                                "name"   : "Meat",
-                            }
-
-                        
-                        },
-                        {
-
-                            "unit_type" : "simple",
-                            "quantity"  : "1",
-                            "unit_name" : "ounces cheese curds or 6 ounces fresh mozzarella cheese, diced",
-
-                            "category"  : {
-                                "id" : "4",
-                                "name"   : "Drinks",
-                            }
-
-                           
                         }
                     ],
                     "steps": [
-                        "Set the oven to 400 degrees F.",
-                        "Pour 1 tablespoon of vegetable oil onto a baking sheet. Spread the oil around, then spread out the sticks of sliced potato.",
-                        "Meanwhile, prepare the gravy. Melt the butter in a saucepan on medium heat.",
-                        "Dice the cheese."
+                        "Place green beans in a pan, cover with water, bring to a boil, reduce to a simmer, and let cook about 3 minutes or until bright green and crisp tender.",
+                        "Drain water, add butter, toss to melt, and season with salt and pepper."
                     ],
                     "meta": [{
-                        "prepTime"    :"PT30M",
-                        "totalTime"   :"PT3H",
-                        "recipeYield" :"8",
+                        "prepTime"    :"PT10M",
+                        "totalTime"   :"",
+                        "recipeYield" :"4",
                         "description" : "",
                         "notes"       : ""
                     }]
                 }
+
+
+
+Nutritional Information
+Serving Size: 121g Calories 86 Fat 5 Sat Fat 3 Sodium 48 Carbs 8 Fiber 3 Sugars 1 Protein 2.
