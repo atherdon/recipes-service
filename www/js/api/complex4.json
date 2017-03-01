@@ -92,6 +92,20 @@ Slow Cooker Beef Bolognaise and Simple Green Beans
                 }
 
 
-Nutritional Information
-Serving Size 501g Calories 708 Fat 19 Sat Fat 7 Sodium 745 Carbs 75 Sugars 13 Fiber 7 Protein 54
 
+
+            "nutritions": {
+                "serving_size":"501g",
+                "calories" : 708,
+                
+                "total_fat" : 19,
+                "sat_fat" : 7,
+                
+                "cholesterol" : 30,
+                "sodium" : 745,
+                "total_carb" : 75,
+                "fibers" : 7,
+                "sugars" : 13,
+                "proteins" : 54,
+                
+            },
