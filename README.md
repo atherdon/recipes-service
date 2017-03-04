@@ -27,3 +27,8 @@ To start the server you need to go to the root folder of project
 use terminal command:
 
 	ionic serve
+	
+To open project in browser, type:
+
+	http://localhost:8100/ionic-lab
+	
