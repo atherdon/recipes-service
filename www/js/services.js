@@ -74,6 +74,61 @@ angular.module('app.services', [])
 
 .service('groceryCategory', ['$http', function( $http ){
 
+
+    var Grocery = function (){
+        this.data = false;
+
+        this.init = function(){
+            this.getData();
+        }
+
+        this.getData = function(){
+            this.data = $http.get('/js/api/grocery.json');
+        }
+
+        this.getCategory = function(callback){
+
+            this.data.then(function(response) {
+
+                angular.forEach( response.data, function(value, key){
+
+                    if( value.category_id == "3" ){
+
+                        callback(value);
+                        
+                    }
+
+                });
+
+            });
+        }
+
+        this.getCategories = function(callback){
+
+            var array = [];
+                
+            this.data.then(function(response) {
+                
+                angular.forEach( response.data, function(value, key){
+
+                    array.push({
+                        "category_id" : value.category_id,
+                        "name"        : value.name
+                    });
+
+
+                });
+                callback(array);
+
+            });
+        }
+
+        this.init();
+
+    };
+
+    return (Grocery);
+
     return {
             get: function() {
                 
@@ -121,3 +176,5 @@ angular.module('app.services', [])
     }
 
 }]);
+
+
