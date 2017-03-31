@@ -32,3 +32,10 @@ To open project in browser, type:
 
 	http://localhost:8100/ionic-lab
 	
+
+
+# recipes-service
+
+Old version.
+Only for saving-file-for-later proposal.
+Latest here: https://github.com/atherdon/recipes-app-2/
